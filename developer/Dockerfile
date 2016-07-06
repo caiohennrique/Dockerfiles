@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-# Based image Developer Teknisa.
+# Based image Developer
 # ------------------------------------------------------------------------------
 # Pull base image.
 
@@ -103,7 +103,7 @@ RUN npm install -g bower && \
         echo "developer ALL = NOPASSWD: /usr/bin/npm" >> /etc/sudoers
 
 #----------------------------------------------------------------------------------------------------
-# Configurações finais
+# ConfiguraÃ§Ãµes finais
 
 ADD confs/cloud9.conf /etc/supervisor/conf.d/
 ADD confs/apache2.conf /etc/supervisor/conf.d/
